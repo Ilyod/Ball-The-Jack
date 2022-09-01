@@ -1616,9 +1616,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Developper : Lucas D'aquaro\r\nBall The Jack is a game developped for
-    the course \"Computer Games\" of the University of Genoa, teached by M. De Gloria
-    and M. Alessandro, in the 2nd semester of the year 2022/2023.\r\n\r\n  **Musics**\r\nMain
+  m_text: "Developper : Lucas D'aquaro\r\nBall The Jack is a game developed for the
+    \"Computer Games\" course of the University of Genoa, taught by M. De Gloria
+    and M. Carmosino, in the 2nd semester of the year 2022/2023.\r\n\r\n  **Musics**\r\nMain
     Menu : A Little Christmas Music, by Lena Orsa (CC BY 3.0) - on AuBoutDuFil.com\r\nLevels
     : Saloon Rag-vintage, by Jason Shaw (CC 4.0) - on audionautix.com\r\nGame Over
     : Intro, by Quantum Jazz (cut version) (CC BY-SA 3.0) - on AuBoutDuFil.com\r\n\r\n 
@@ -2503,7 +2503,7 @@ AudioSource:
   m_PlayOnAwake: 1
   m_Volume: 0.5
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
