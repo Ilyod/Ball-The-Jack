@@ -36,7 +36,11 @@ public class HighscoresMenu : MonoBehaviour
             string scorePlayerName = scorePlayerNameBase + i.ToString();
             string scoreTimeName = scoreTimeNameBase + i.ToString();
 
-            TimesTexts[i - 1].text = PlayerPrefs.GetFloat(scoreTimeName, 0).ToString() + " s";
+            float time = PlayerPrefs.GetFloat(scoreTimeName, 0);
+            if (time > 3600.0f){
+                time = 0.0f;
+            }         
+            TimesTexts[i - 1].text = time.ToString() + " s";
             PlayersTexts[i - 1].text = PlayerPrefs.GetString(scorePlayerName, "-");
         }
     }
