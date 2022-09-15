@@ -159,6 +159,7 @@ MonoBehaviour:
   setSpeed: 10
   countText: {fileID: 0}
   timeText: {fileID: 0}
+  BackgroundMusicObject: {fileID: 0}
   startObject: {fileID: 0}
   startCountText: {fileID: 0}
   pauseObject: {fileID: 0}
